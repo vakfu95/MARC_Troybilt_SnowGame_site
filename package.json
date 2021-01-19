@@ -1,0 +1,33 @@
+{
+  "name": "marc_troybilt_snowgame_site",
+  "version": "1.0.0",
+  "description": "Game sharing page for Troybilt snow campaign 2021",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --out-dir build --no-source-maps --public-url ./"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "normalize.scss": "^0.1.0",
+    "sass": "^1.22.12"
+  },
+  "parcelCleanPaths": [
+    "dist/**/*.*",
+    "build/**/*.*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panguino/MARC_Troybilt_SnowGame_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Panguino/MARC_Troybilt_SnowGame_site/issues"
+  },
+  "homepage": "https://github.com/Panguino/MARC_Troybilt_SnowGame_site#readme",
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
+  }
+}
