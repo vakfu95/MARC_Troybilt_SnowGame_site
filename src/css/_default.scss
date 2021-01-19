@@ -16,7 +16,6 @@ body{
         }
         .shop {
             font-weight: bold;
-            width: 100px;
             cursor: pointer;
             .shop-arrow {
                 position: relative;
@@ -26,16 +25,7 @@ body{
             }
         }
         .shop:hover {
-            animation: shopOver .25s;
-        }
-        @keyframes shopOver {
-            0% {
-                margin-right: 0px;
-            }
-
-            100% {
-                margin-right: 10px;
-            }
+            color: #ca0003;
         }
     }
     .banner-wrapper {
