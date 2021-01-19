@@ -18,10 +18,18 @@ body{
 
         }
     }
-    .banner {
-        flex:1; 
+    .banner-wrapper {
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .banner {
+            width: 300px;
+            height: 600px;
+            background-color: #FFFFFF;
+        } 
     }
-    .footer {
+    .foot {
         color:#b7b7b7;
         font-family: 'Helvetica Neue', sans-serif;
         font-size: 12px;
