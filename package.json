@@ -29,5 +29,8 @@
   "homepage": "https://github.com/Panguino/MARC_Troybilt_SnowGame_site#readme",
   "dependencies": {
     "normalize.scss": "^0.1.0"
+  },
+  "engines": {
+    "node": "12.16.2"
   }
 }
