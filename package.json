@@ -28,9 +28,15 @@
   },
   "homepage": "https://github.com/Panguino/MARC_Troybilt_SnowGame_site#readme",
   "dependencies": {
-    "normalize.scss": "^0.1.0"
+    "normalize.scss": "^0.1.0",
+    "parcel-plugin-static-files-copy": "^2.5.0"
   },
   "engines": {
     "node": "12.16.2"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**",
+    "staticOutDir": "/"
   }
 }
