@@ -16,6 +16,7 @@ body{
         }
         .shop {
             font-weight: bold;
+            color:#000;
             cursor: pointer;
             .shop-arrow {
                 position: relative;
@@ -33,6 +34,10 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        @media (max-width: 800px){
+            align-items: flex-start;
+            margin-top:13px;
+        }
         .banner {
             position:relative;
             width: 300px;
