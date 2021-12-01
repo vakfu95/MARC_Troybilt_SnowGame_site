@@ -14,7 +14,7 @@
     <link rel="mask-icon" href="safari-pinned-tab.711ba8ce.svg" color="#ca0814">
     <meta name="msapplication-TileColor" content="#ca0814">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="src.efa22c34.css">
+    <link rel="stylesheet" href="src.e31bb0bc.css">
 
 
     <?php 
@@ -194,8 +194,10 @@
                     <div class="end-products-container float">
                         <div class="float products-carousel"> </div>
                         <div class="float products-navigation"> </div>
-                        <div class="end-text-browse png-element"></div>
-                        <div class="png-element product-message"></div>
+                        <div class='png-element product-message'></div>
+                        <div class='float cta2-button button'>
+                            <div class='png-element cta2'></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,8 +209,8 @@
         src="https://s0.2mdn.net/ads/studio/cached_libs/createjs_2015.11.26_54e1c3722102182bb133912ad4442e19_min.js"></script>
     <script type="text/javascript"
         src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.19.0_643d6911392a3398cb1607993edabfa7_min.js"></script>
-    <script src="src.05da7522.js"></script>
-    <script src="animation.min.82486701.js"></script>
+    <script src="src.e31bb0bc.js"></script>
+    <script src="animation.min.ca8e04d4.js"></script>
 </body>
 
 </html>
