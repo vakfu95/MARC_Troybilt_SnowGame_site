@@ -67,9 +67,9 @@
 
 <body>
     <div class="all">
-        <div class="header">
-            <div class="logo png-element"></div>
-            <div class="shop">Shop Now<img class="shop-arrow" src="cta-alt-icon@2x.6dc703a7.png"></div>
+    <div class="header">
+            <a href="https://www.troybilt.com" class="logo png-element"></a> <a href="https://www.troybilt.com/en_US/snow-blowers" class="shop">Shop
+                Now<img class="shop-arrow" src="cta-alt-icon@2x.6dc703a7.png"></a>
         </div>
         <div class="banner-wrapper">
             <div class="banner stage">
